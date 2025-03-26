@@ -54,3 +54,8 @@ if None not in new_features:  # Ensure valid features
     print(f"Predicted Stress-Relief Potential ('calming'): {'Yes' if prediction[0] == 1 else 'No'}")
 else:
     print("Invalid SMILES string for prediction.")
+
+
+
+
+wesite - https://paperswithcode.com/dataset/multi-labelled-smiles-odors-dataset
