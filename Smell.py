@@ -46,7 +46,7 @@ print(classification_report(y_test, y_pred))
 
 # Step 7: Predict Stress-Relief Potential for a New Molecule
 # Example: Predict the "calming" potential of a new SMILES string
-new_smiles = "CC(C)C(=O)OC1=CC=CC=C1"  # Replace with a valid SMILES string
+new_smiles = "CC(n C)C(=O)OC1=CC=CC=C1"  # Replace with a valid SMILES string
 new_features = extract_features(new_smiles)
 
 if None not in new_features:  # Ensure valid features
